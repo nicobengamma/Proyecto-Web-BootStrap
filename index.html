@@ -38,7 +38,7 @@
             <a class="nav-link" href="#biografia">Biografia</a>
             <a class="nav-link" href="#discografia">Discografia</a>
             <a class="nav-link" href="#fechas">Fechas</a>
-            <a class="nav-link" href="..">Contacto</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </div>
         </div>
       </div>
@@ -249,26 +249,73 @@
       </div>
     </section>
     <!--Fechas de recitales-->
-    <section class="m-3">
-      <h1 class="text-center" id="fechas">Proximas Fechas</h1>
-      <div class="row">
-        <div class="col-4">
-          <div class="list-group" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Abril 2022 - Estadio Obras Publicas</a>
-            <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Junio 2022 - Estadio Islas Malvinas</a>
-            <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Septiembre 2022 - Luna Park</a>
-            <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Noviembre 2022 - River Plate</a>
-          </div>
+    <section>
+      <h1 class="text-center" id="fechas">Proximas fechas</h1>
+      <ul class="list-group list-group-flush text-center">
+        <li class="list-group-item">03/02/2022 - Quilmes Rock</li>
+        <li class="list-group-item">06/02/2022 - River Plate</li>
+        <li class="list-group-item">20/02/2022 - Anfiteatro Russel</li>
+        <li class="list-group-item">04/03/2022 - Catedral Oeste</li>
+        <li class="list-group-item">12/03/2022 - Carlos Paz</li>
+        <li class="list-group-item">15/04/2022 - Villa la Angostura</li>
+        <li class="list-group-item">01/05/2022 - Colon</li>
+      </ul>
+    </section>
+    <!--Contacto-->
+    <section>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well well-sm">
+                    <form class="form-horizontal m-3" method="post">
+                        <fieldset>
+                            <legend class="text-center header" id="contacto">Contactanos !</legend>
+    <br>
+                            <div class="form-group ">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                <div class="col-md-12">
+                                    <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                <div class="col-md-12">
+                                    <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                                </div>
+                            </div>
+    
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                <div class="col-md-12">
+                                    <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                                </div>
+                            </div>
+    
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                <div class="col-md-12">
+                                    <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                                </div>
+                            </div>
+    
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                <div class="col-md-12">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="col-8">
-          <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list"><img src="imagenes/Estadios/Estadio obras publicas.png" alt="" style="height: 490px;"></div>
-            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list"><img src="Imagenes/Estadios/Estadio malvinas.jpg" alt="" style="height: 475px;"></div>
-            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list"><img src="imagenes/Estadios/Luna park.jpg" alt="" style="height: 490px;"></div>
-            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list"><img src="imagenes/Estadios/River plate.JPG" alt="" style="height: 455px;"></div>
-          </div>
-        </div>
-      </div>
+    </div>
     </section>
     <!-- JavaScript Bundle with Popper -->
     <script
